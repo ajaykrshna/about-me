@@ -66,7 +66,7 @@ title: Miles from Spider-Man: Across The Spider Verse
 export default function Model(props) {
   const group = useRef();
   const { nodes, materials } = useGLTF(
-    "/miles_from_spider-man_across_the_spider_verse.glb"
+    "/about-me/miles_from_spider-man_across_the_spider_verse.glb"
   );
   return (
     <group ref={group} {...props} dispose={null} scale={0.4}>
@@ -96,5 +96,5 @@ export default function Model(props) {
   );
 }
 
-useGLTF.preload("/miles_from_spider-man_across_the_spider_verse.glb");
+useGLTF.preload("/about-me/miles_from_spider-man_across_the_spider_verse.glb");
 
