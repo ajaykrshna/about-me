@@ -49,6 +49,7 @@ canvas {
 .heading--main {
   width: 50vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-left: 20px;
@@ -57,11 +58,17 @@ canvas {
 
 .heading--main--text {
   font-size: 4rem;
+  margin-bottom: 10px;
 }
+
+.heading--sub--text {
+  font-size: 1.8rem;
+  }
 
 .threejs {
   width: 50vw;
   color: white;
+  background-color: #BC3CD8;
 }
 
 .desc {

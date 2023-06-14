@@ -6,6 +6,7 @@ export default function About() {
         <div className="about">
             <div className="heading--main">
                 <h1 className="heading--main--text"><span className="grey">I'm</span> Ajay Krishnan</h1>
+                <h2 className="heading--sub--text"><span>Passionate Web Developer</span></h2>
             </div>
             <div className="threejs">
             <Mod/>
