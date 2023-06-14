@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/chechi.jpeg"
+import profile from "../images/medp.jpg"
 
 export default function Desc() {
     return (
